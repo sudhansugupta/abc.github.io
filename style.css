@@ -149,6 +149,104 @@ nav ul li a{
 	margin-top: 20px;
 }
 
+/*-------------round3 end---------------*/
+/*-------------round4 start---------------*/
+.round4{
+	background-image: url(img/main3.png);
+	height:900px;
+	width: 100%;
+	background-size:100% 100%;
+	position: absolute;
+}
+.hline{
+	font-size: 45px;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: #ffba00;
+	padding-top: 70px;
+}
+.round4 .part2{
+	height: 80px;
+	width: 1000px;
+	color:  #ffba00;
+	border:1px solid white; 
+	
+	margin-top: 50px;
+	float: right;
+	background-color: transparent;
+}
+.round4 .part2 h2{
+	color: #ffba00;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 5px;
+
+}
+.part3{
+	background: #ffba00;
+	width: 700px;
+	height: 330px;
+	margin-top: 50px;
+	float: right;
+
+}
+.textpart{
+	display: flex;
+	margin-top: 30px;
+	color: white;
+	font-size: 30px;
+	margin-left: 40px;
+	font-weight: normal;
+}
+.textpart span{
+	width: 190px;
+}
+.part4{
+	width: 600px;
+	height: 80px;
+	border:2px solid white;
+	margin-top: 80px;
+	margin-left: -200px;
+}
+.part4 h2{
+	font-size: 15px;
+	margin-left: 70px;
+	margin-top: 5px;
+	font-weight: normal;
+	letter-spacing: 5px;
+}
+/*-------------round4 end---------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*-------------responsive start---------------*/
 @media only screen and (max-width: 600px){
@@ -306,3 +404,57 @@ nav ul li a{
 	margin-top: 15px;
 }
 /*-------------round3 end---------------*/
+.round4{
+	background-image: url(img/main3.png);
+	height:500px;
+	width: 100%;
+	background-size:100% 100%;
+	position: absolute;
+	overflow: hidden;
+}
+.hline{
+	font-size: 30px;
+	padding-top: 20px;
+}
+.round4 .part2{
+	height: 60px;
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.round4 .part2 h2{
+	font-size: 25px;
+	letter-spacing: 2px;
+
+}
+.part3{
+	width: 250px;
+	height: 150px;
+	margin-top: 30px;
+	float: right;
+}
+.textpart{
+	display: flex;
+	margin-top: 10px;
+	color: white;
+	font-size: 15px;
+	margin-left: 10px;
+	font-weight: normal;
+}
+.textpart span{
+	width: 80px;
+}
+.part4{
+	width: 150px;
+	height: 60px;
+	border:2px solid white;
+	margin-top: 50px;
+	margin-left: -10px;
+}
+.part4 h2{
+	font-size: 10px;
+	margin-left: 20px;
+	margin-top: 5px;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
