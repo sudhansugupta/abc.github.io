@@ -243,20 +243,20 @@ nav ul li a{
 .round2{
 	height: 400px;
 	width: 100%;
+	overflow: hidden;
 }
 .round2 img{
-	float: right;
 	margin-top: 50px;
-	position:;
 	height: 300px;
 	width: 250px;
-	background-size: 100% 100%;
+	background-size: cover;
 	position: absolute;
-	margin-left: 110px;
+	margin-left: 109px;
+
 }
 .round2 .design2{
 	height: 80px;
-	width: 60%;
+	width: 280px;
 	margin-left: 10px;
 	margin-top: 160px;
 }
@@ -287,7 +287,7 @@ nav ul li a{
 	width: 100%;
 	justify-content: center;
 	height: auto;
-	padding: 20px 0px;
+	padding: 0 0px;
 	background-color: white;
 	align-items: center;
 	text-align: center;
