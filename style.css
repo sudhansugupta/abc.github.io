@@ -2,98 +2,307 @@
 	margin: 0;
 	padding: 0;
 }
-.full_view{
-	background-color: #f7ced6;
-	width: 100%;
-	height: 100vh;
+body{
+	background-color: #242424;
 }
-.menu{
+/*-------------navbar start---------------*/
+.group1{
+	background-image: url(img/main.png);
+	background-size: 100% 100%;
+	height: 600px;
+	width: 100%;
+}
+.part{
 	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	
-
 }
-.logo{
-	height: 150px;
-	width: 300px;
+.group1 .part button{
+	margin-left: 5px;
+	margin-top: 30px;
+	height: 60px;
+	width: 250px;
+	background-color: #ffba00;
+	border-color: transparent;
 }
-.menu_ber li{
+.group1 .part button h3{
+	font-size: 25px;
+	color: white;
+	margin-left: 70px;
+}
+nav{
+	display: flex;
+	margin-left:230px;
+	margin-top: 30px;
+}
+nav ul li{
 	display: inline-block;
-	margin-right: 30px;
-	padding: 15px 10px;
+	margin-left: 60px;
 }
-.menu_ber li a{
+nav ul li a{
+	font-size: 25px;
+	color: white;
+	font-family: Lato;
 	text-decoration: none;
-	font-size: 30px;
-	transition: .3s ease;
-	opacity: 0.5;
 }
-.menu_ber li a:hover{
-	border-bottom: 4px solid #0af6f9;
-	opacity: 1;
+.checkbtn{
+	color: #04f9ce;
+	float: right;
+	display: none;
 }
-.contant{
-	display: flex;
-	margin-top: 5%;
+#check{
+	display:none;
+}
+.design{
 	width: 100%;
+	background-color:#ffba00;
+	height: 150px;
+	margin-top: 150px;
+}
+.text1 h1{
+	padding-top: 15px;
+}
+.text1 h1 , h2{
+	color: white;
+	font-size: 65pt;
+	margin-left: 150px;
+}
+.design button{
+	height: 60px;
+	width: 250px;
+	background-color: #ffba00;
+	border:4px solid white;
+	position: absolute;
+	margin-top: -95px;
+	margin-left: 700px;
+}
+.design button a{
+	display: block;
+	color: white;
+	font-size: 22px;
+	text-decoration: none;
+}
+/*-------------navbar end---------------*/
 
-	text-align: center;
+/*-------------round2 start---------------*/
+.round2{
+	height: 600px;
+	width: 100%;
 }
-.box-left{
-	height: 400px;
+.round2 img{
+	float: right;
+	margin-top: 75px;
+	position:;
+}
+.round2 .design2{
+	height: 150px;
 	width: 50%;
-	box-sizing: border-box;
-	background-color: #5cf710;
-	text-align: center;
+	background-color: #ffba00;
+	margin-left: 140px;
+	margin-top: 225px;
+	position: absolute;
+}
+.round2 .text h3{
+	color: white;
+	transform:  rotate(270deg);
+	position: absolute;
+	margin-top: 255px;
+	margin-left: 70px;
+	font-size: 45px;
+	font-family: Myriad Pro;
+	font-style: normal;
+	font-weight: normal;
+}
+.round2 .text2{
+	padding-top: 120px;
+		margin-left: 80px;
+}
+.round2 .text2 h2{
+	font-size: 20px;
+	margin-top: 50px;
+	font-family: Myriad Pro;
+	font-style: normal;
+	font-weight: normal;
+	position: relative;
 
 }
-.box-right{
-	height: 400px;
-	margin-left:;
-	text-align:center;
-	width: 50%;
-	box-sizing: border-box;
-	background-color: #f8c21e;
-	margin-top:
+/*-------------round2 end---------------*/
+/*-------------round3 start---------------*/
+
+.round3{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	height: 250px;
+	background-color: white;
+	align-items: center;
+
 }
-@media(max-width: 700px){
-	.contant{
+.round3 .coloum{
+	display: inline-block;
+	padding:0px 50px;
+}
+.round3 .coloum h1{
+	color: #ffba00;
+	font-size: 25px;
+	font-weight: bold;
+}
+.round3 .coloum p{
+	margin-top: 20px;
+}
+
+
+/*-------------responsive start---------------*/
+@media only screen and (max-width: 600px){
+	.group1{
+		height: 300px;
+		width: 100%;
+	}
+	.checkbtn{
 		display: block;
-		justify-content: center;
-		text-align: center;
-		align-items: center;
-	}
-	.box-right{
-		width: 100%;
-		justify-content: center;
-		text-align: center;
-		align-items: center;
-		margin-top: 50px;
+		margin-top:10px;
+		margin-left: 45%;
+		float: right;
+		font-size:30px;
+		background-color: transparent;
 
 	}
-	.box-left{
-		width: 100%;
-		justify-content: center;
-		text-align: center;
-		align-items: center;
-	}
+	#check:checked ~ nav{
+	display: block;
+	transition: 0.9s;
+
 }
+.group1 .part button{
+	margin-left: 2px;
+	margin-top: 10px;
+	height: 40px;
+	width: 150px;
+	background-color: #ffba00;
+	border-color: transparent;
+}
+.group1 .part button h3{
+	font-size: 20px;
+	color: white;
+	margin-left: 40px;
+}
+	nav{
+	display: none;
+	text-align: center;
+	position:absolute;
+	background:blue;
+	position:;
+	transition: 0.5s;
+	margin-left: 0px;
+	margin-top: 40px;
+	width: 100%;
+	padding-bottom: 20px;
 
+}
+nav ul{
+	position:;
+}
+nav ul li{
+	display:block;
+	margin-left:0px;
+	margin-top: 25px;
+	width: 100%;
+}
+nav ul li a{
+	font-size: 25px;
+	color: white;
+	font-family: Lato;
+	text-decoration: none;
+}
+.design{
+	width: 100%;
+	background-color:#ffba00;
+	height: 80px;
+	margin-top: 70px;
+}
+.text1 h1{
+	padding-top: 35px;
+}
+.text1 h1 , h2{
+	color: white;
+	font-size: 20pt;
+	margin-left: 25px;
+}
+.design button{
+	height: 40px;
+	width: 130px;
+	background-color: #ffba00;
+	border:2px solid white;
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 175px;
+	display: block;
+}
+.design button a{
+	font-size: 15px;
+}
+/*-------------navbar end---------------*/
+/*-------------round2 start---------------*/
+.round2{
+	height: 400px;
+	width: 100%;
+}
+.round2 img{
+	float: right;
+	margin-top: 50px;
+	position:;
+	height: 300px;
+	width: 250px;
+	background-size: 100% 100%;
+	position: absolute;
+	margin-left: 110px;
+}
+.round2 .design2{
+	height: 80px;
+	width: 60%;
+	margin-left: 10px;
+	margin-top: 160px;
+}
+.round2 .text h3{
+	margin-top: 175px;
+	margin-left: -35px;
+	font-size: 25px;
+}
+.round2 .text2{
+	width: 100%;
+	padding-top: 120px;
+		margin-left: 20px;
+		position: relative;
+}
+.round2 .text2 h2{
+	font-size: 12px;
+	margin-top: 20px;
+	font-family: Myriad Pro;
+	font-style: normal;
+	font-weight: normal;
+	position: relative;
 
+}
+/*-------------round2 end---------------*/
+/*-------------round3 start---------------*/
+.round3{
+	display: block;
+	width: 100%;
+	justify-content: center;
+	height: auto;
+	padding: 20px 0px;
+	background-color: white;
+	align-items: center;
+	text-align: center;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.round3 .coloum{
+	display: inline-block;
+	padding:30px 0px;
+}
+.round3 .coloum h1{
+	color: #ffba00;
+	font-size: 20px;
+	font-weight: bold;
+}
+.round3 .coloum p{
+	margin-top: 15px;
+}
+/*-------------round3 end---------------*/
