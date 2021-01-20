@@ -43,6 +43,12 @@ nav ul li a{
 	font-family: Lato;
 	text-decoration: none;
 }
+nav ul li a:hover{
+	color: #ffba00;
+}
+nav ul li.active a{
+	color: yellow;
+}
 .checkbtn{
 	color: #04f9ce;
 	float: right;
@@ -65,20 +71,21 @@ nav ul li a{
 	font-size: 65pt;
 	margin-left: 150px;
 }
-.design button{
+.button{
 	height: 60px;
 	width: 250px;
 	background-color: #ffba00;
 	border:4px solid white;
-	position: absolute;
-	margin-top: -95px;
+	margin-top: -30px;
 	margin-left: 700px;
 }
-.design button a{
+.button a{
 	display: block;
 	color: white;
 	font-size: 22px;
 	text-decoration: none;
+	text-align: center;
+	line-height: 60px;
 }
 /*-------------navbar end---------------*/
 
@@ -90,7 +97,7 @@ nav ul li a{
 .round2 img{
 	float: right;
 	margin-top: 75px;
-	position:;
+	position:relative;
 }
 .round2 .design2{
 	height: 150px;
@@ -437,6 +444,10 @@ nav ul li a{
 .icon img{
 	padding: 5px;
 }
+.email:hover{
+	color: white;
+
+}
 .ask{
 	margin-bottom: 20px;
 	margin-top: 30px;
@@ -445,16 +456,51 @@ nav ul li a{
 	color: #ffba00;
 	font-size: 25px;
 	font-weight: bold;
+	cursor: pointer;
 
 }
 /*-------------round7 end---------------*/
+/*-------------round8 start---------------*/
 
+.round8{
+	width: 100%;
+	height: 325px;
+	background-color: #483500;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.about h4{
+	color: white;
+	font-size: 22px;
+}
+.about h5{
+	color: white;
+	font-size: 18px;
+	margin-top: 70px;
+}
+.footer2{
+	color: white;
+	font-size: 22px;
+	padding: 60px;
+}
+.footer2 ul{
+	margin-top: 30px;
+}
+.footer2 li{
+	list-style: none;
+}
+.footer2 li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+.footer2 li a:hover{
+	color: yellow;
+}
+.footer1{display: flex;}
 
-
-
-
-
-
+/*-------------round8 end---------------*/
 
 
 
@@ -487,8 +533,8 @@ nav ul li a{
 
 	}
 	#check:checked ~ nav{
-	display: block;
-	transition: 0.9s;
+	left:0;
+	transition: 0.5s;
 
 }
 .group1 .part button{
@@ -505,32 +551,46 @@ nav ul li a{
 	margin-left: 40px;
 }
 	nav{
-	display: none;
+	display:;
+	height:auto;
+	left: -100%;
+	top: 0;
 	text-align: center;
-	position:absolute;
-	background:blue;
-	position:;
+	background:#242424;
 	transition: 0.5s;
 	margin-left: 0px;
-	margin-top: 40px;
+	margin-top: 55px;
 	width: 100%;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
+	justify-content: center;
+	position: absolute;
 
 }
 nav ul{
-	position:;
+
+
 }
 nav ul li{
 	display:block;
-	margin-left:0px;
+	text-align: center;
 	margin-top: 25px;
+	margin-left:0;
 	width: 100%;
 }
 nav ul li a{
 	font-size: 25px;
-	color: white;
+	color:	#ffba00;
 	font-family: Lato;
 	text-decoration: none;
+		justify-content: center;
+	align-items: center;
+
+}
+nav ul li a:hover{
+	color: white;
+}
+nav ul li.active a{
+	color: white;
 }
 .design{
 	width: 100%;
@@ -546,18 +606,18 @@ nav ul li a{
 	font-size: 20pt;
 	margin-left: 25px;
 }
-.design button{
+.button{
 	height: 40px;
 	width: 130px;
 	background-color: #ffba00;
 	border:2px solid white;
-	position: absolute;
-	margin-top: -40px;
+	margin-top: -20px;
 	margin-left: 175px;
 	display: block;
 }
-.design button a{
+.button a{
 	font-size: 15px;
+	line-height: 40px;
 }
 /*-------------navbar end---------------*/
 /*-------------round2 start---------------*/
@@ -779,15 +839,15 @@ nav ul li a{
 .round7bg{
 	position: relative;
 	width: 100%;
-	height: auto;
+	height: 1300px;
 	background-color: transparent;
 }
 .round7 .colom{
 	height: 1300px;
-	width: 80px;
+	width: 85px;
 	background-color: #ffba00;
 	position: absolute;
-	margin-left: 20px;
+	margin-left: 15px;
 	overflow: hidden;
 }
 .headline2{
@@ -817,10 +877,12 @@ nav ul li a{
 	text-align: center;
 }
 .round7img1 img{
+	width: 320px;
 	height: 250px;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	padding: 0;
 }
 .resize img{
 	height: ;
@@ -868,3 +930,40 @@ nav ul li a{
 
 }
 /*-------------round7 end---------------*/
+/*-------------round8 start---------------*/
+
+.round8{
+	height: auto;
+	background-color: #483500;
+	display: block;
+	overflow: hidden;
+}
+.about h4{
+	font-size: 18px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.about h5{
+	font-size: 12px;
+	margin-top: 20px;
+	padding-left: 30px;
+}
+.footer1{
+	display: flex;
+}
+.footer2{
+	font-size: 16px;
+	padding-left: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: inline-block;
+	margin-left: 20px;
+}
+.footer2 ul{
+	margin-top: 15px;
+}
+.footer2 li a{
+	font-size: 12px;
+}
+
+/*-------------round8 end---------------*/
