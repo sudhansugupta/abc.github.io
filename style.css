@@ -278,15 +278,20 @@ nav ul li a{
 }
 /*-------------round5 end---------------*/
 /*-------------round6 start---------------*/
+.round6{
+	position:relative;
+		width: 100%;
+	height: 900px;
+}
 .round6img img{
 	width: 100%;
 	height: 900px;
 	background-size: 100% 100%;
-	position: absolute;
+	position:absolute;
 
 }
 .round6 .headline{
-	position: relative;
+	position: absolute;
 }
 .round6 .headline h4{
 	color: white;
@@ -294,7 +299,7 @@ nav ul li a{
 	margin-top: 50px;
 	margin-right:;
 	margin-left: 1000px;
-	position:absolute;
+	position:relative;
 }
 .round6 .block{
 	height: 450px;
@@ -361,9 +366,91 @@ nav ul li a{
 }
 
 /*-------------round6 end---------------*/
+/*-------------round7 start---------------*/
+.round7{
+	width: 100%;
+	height: 1260px;
+	position:relative;
+}
+.round7bg{
+	position: relative;
+	width: 100%;
+	height: 1260px;
+}
+.round7 .colom{
+	height: 1260px;
+	width: 250px;
+	background-color: #ffba00;
+	position: absolute;
+	margin-left: 230px;
+}
+.headline2{
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	padding-top: 140px;
+	padding-bottom: 30px;
+}
+.headline2 h1{
+	font-size: 40px;
+	color:  #ffba00;
+}
+.round7img{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+.round7img1{
+	display: inline-block;
+	height: 475px;
+}
+.headline3{
+	justify-content: center;
+	text-align: center;
+}
+.headline3 h2{
+		font-size: 50px;
+		margin-top: 50px;
+}
+.flexbox{
+	display: flex;
+}
+.para{
+	position: relative;
+	margin-left: 300px;
+}
+.para p{
+	font-size: 30px;
+	color: white;
+	margin-top: 100px;
+}
+.para2{
+	font-size: 20px;
+	color: white;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+.find{
+	margin-bottom: 20px;
+}
+.icon img{
+	padding: 5px;
+}
+.ask{
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+.email{
+	color: #ffba00;
+	font-size: 25px;
+	font-weight: bold;
+
+}
+/*-------------round7 end---------------*/
 
 
-
+round7
 
 
 
@@ -645,26 +732,26 @@ nav ul li a{
 }
 .round6 .block{
 	height: 320px;
-	width: 200px;
+	width: 160px;
 	margin-top: 80px;
-	margin-right: 10px;
+	margin-right: 5px;
 }
 .round6 .block h5{
-	font-size: 22px;
+	font-size: 20px;
 	padding: 30px;
 }
 .round6 .block h3{
-	font-size: 18px;
+	font-size: 15px;
 	padding-top: 0px;
 	padding-left: 30px;
 }
 .round6 .block h2{
-	font-size: 18px;
+	font-size: 15px;
 	padding-top: 30px;
 	padding-right: 30px;
 }
 .round6 .block h1{
-	font-size: 18px;
+	font-size: 15px;
 	padding-top: 10px;
 	padding-right: 20px;
 }
@@ -682,3 +769,83 @@ nav ul li a{
 }
 
 /*-------------round6 end---------------*/
+
+/*-------------round7 start---------------*/
+.round7{
+	width: 100%;
+	height: 1260px;
+	position:relative;
+}
+.round7bg{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.round7 .colom{
+	height: auto;
+	width: 50px;
+	background-color: #ffba00;
+	position: absolute;
+	margin-left: 230px;
+}
+.headline2{
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+.headline2 h1{
+	font-size: 40px;
+	color:  #ffba00;
+}
+.round7img{
+	position: relative;
+	display: block;
+	justify-content: center;
+	overflow: hidden;
+}
+.round7img1{
+	display: inline-block;
+	height: 250px;
+}
+
+.headline3 h2{
+		font-size: 30px;
+		margin-top: 20px;
+}
+.flexbox{
+	display: flex;
+}
+.para{
+	position: relative;
+	margin-left: 60px;
+}
+.para p{
+	font-size: 20px;
+	color: white;
+	margin-top: 50px;
+}
+.para2{
+	font-size: 12px;
+	color: white;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.find{
+	margin-bottom: 10px;
+}
+.icon img{
+	padding: 5px;
+}
+.ask{
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+.email{
+	color: #ffba00;
+	font-size: 15px;
+	font-weight: bold;
+
+}
+/*-------------round7 end---------------*/
