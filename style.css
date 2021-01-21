@@ -50,7 +50,7 @@ nav ul li.active a{
 	color: yellow;
 }
 .checkbtn{
-	color: #04f9ce;
+	color: #ffba00;
 	float: right;
 	display: none;
 }
@@ -196,7 +196,7 @@ nav ul li.active a{
 
 }
 .part3{
-	background: #ffba00;
+	background: transparent;
 	width: 700px;
 	height: 330px;
 	margin-top: 50px;
@@ -206,12 +206,23 @@ nav ul li.active a{
 }
 .textpart{
 	display: flex;
-	margin-top: 30px;
+	margin-top: 0px;
+	padding-top: 30px;
+	padding-left: 10px;
 	color: white;
 	font-size: 30px;
 	margin-left: 40px;
 	font-weight: normal;
 	position: relative;
+	background-color: #ffba00;
+	cursor: pointer;
+	transition: 0.5s;
+	padding-bottom: 10px;
+
+}
+.textpart:hover{
+	background-color:transparent;
+	transition: 0.5s;
 }
 .textpart span{
 	width: 190px;
@@ -220,7 +231,7 @@ nav ul li.active a{
 	width: 600px;
 	height: 80px;
 	border:2px solid white;
-	margin-top: 80px;
+	margin-top: 60px;
 	margin-left: -200px;
 	position: relative;
 }
@@ -720,11 +731,19 @@ nav ul li.active a{
 }
 .textpart{
 	display: flex;
-	margin-top: 10px;
+	margin-top: 0px;
+	padding-top: 10px;
+	padding-left: 8px;
+	padding-bottom: 5px;
 	color: white;
 	font-size: 15px;
 	margin-left: 10px;
 	font-weight: normal;
+	transition: 0.5s;
+}
+.textpart:hover{
+	background-color:transparent;
+	transition: 0.5s;
 }
 .textpart span{
 	width: 80px;
@@ -733,7 +752,7 @@ nav ul li.active a{
 	width: 150px;
 	height: 60px;
 	border:2px solid white;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-left: -10px;
 }
 .part4 h2{
